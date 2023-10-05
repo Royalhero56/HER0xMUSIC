@@ -51,10 +51,10 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
            InlineKeyboardButton(
-                text="🥰𝐎𝐖𝐍𝐄𝐑🥰", url=f"https://t.me/iamcutehero",
+                text="🥰ᴏᴡɴᴇʀ🥰", url=f"https://t.me/iamcutehero",
             ),
            InlineKeyboardButton(
-                text="🧸𝐁𝐑𝐎𝐓𝐇𝐄𝐑🧸", url=f"https://t.me/Royal_king365",
+                text="🧸ʙʀᴏᴛʜᴇʀ🧸", url=f"https://t.me/Royal_king365",
             ),
         ],
         [
@@ -104,10 +104,10 @@ def telegram_markup_timer(_, chat_id, played, dur):
         ],
         [
            InlineKeyboardButton(
-                text="🥰𝐎𝐖𝐍𝐄𝐑🥰", url=f"https://t.me/iamcutehero",
+                text="🥰ᴏᴡɴᴇʀ🥰", url=f"https://t.me/iamcutehero",
             ),
            InlineKeyboardButton(
-                text="🧸𝐁𝐑𝐎𝐓𝐇𝐄𝐑🧸", url=f"https://t.me/Royal_king365",
+                text="🧸ʙʀᴏᴛʜᴇʀ🧸", url=f"https://t.me/Royal_king365",
             ),
         ],
         [
@@ -150,10 +150,10 @@ def stream_markup(_, videoid, chat_id):
         ],
         [
            InlineKeyboardButton(
-                text="🥰𝐎𝐖𝐍𝐄𝐑🥰", url=f"https://t.me/iamcutehero",
+                text="🥰ᴏᴡɴᴇʀ🥰", url=f"https://t.me/iamcutehero",
             ),
            InlineKeyboardButton(
-                text="🧸𝐁𝐑𝐎𝐓𝐇𝐄𝐑🧸", url=f"https://t.me/Royal_king365",
+                text="🧸ʙʀᴏᴛʜᴇʀ🧸", url=f"https://t.me/Royal_king365",
             ),
         ],
         [
@@ -184,10 +184,10 @@ def telegram_markup(_, chat_id):
         ],
         [
            InlineKeyboardButton(
-                text="🥰𝐎𝐖𝐍𝐄𝐑🥰", url=f"https://t.me/iamcutehero",
+                text="🥰ᴏᴡɴᴇʀ🥰", url=f"https://t.me/iamcutehero",
             ),
            InlineKeyboardButton(
-                text="🧸𝐁𝐑𝐎𝐓𝐇𝐄𝐑🧸", url=f"https://t.me/Royal_king365",
+                text="🧸ʙʀᴏᴛʜᴇʀ🧸", url=f"https://t.me/Royal_king365",
             ),
         ],
         [
@@ -341,10 +341,10 @@ def queue_markup(_, videoid, chat_id):
         ],
         [
            InlineKeyboardButton(
-                text="🥰𝐎𝐖𝐍𝐄𝐑🥰", url=f"https://t.me/iamcutehero",
+                text="🥰ᴏᴡɴᴇʀ🥰", url=f"https://t.me/iamcutehero",
             ),
            InlineKeyboardButton(
-                text="🧸𝐁𝐑𝐎𝐓𝐇𝐄𝐑🧸", url=f"https://t.me/Royal_king365",
+                text="🧸ʙʀᴏᴛʜᴇʀ🧸", url=f"https://t.me/Royal_king365",
             ),
         ],
         [
