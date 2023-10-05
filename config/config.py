@@ -7,26 +7,26 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", "16051908"))
-API_HASH = getenv("API_HASH", "abf9b83f9ca40cf9f5ba9bf6e6afaa8b")
+API_ID = int(getenv("API_ID", "24979812"))
+API_HASH = getenv("API_HASH", "b17f0957f25048200fd00998fd1595e8")
 
 BOT_TOKEN = getenv("BOT_TOKEN", "")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://aadityalegend29:aadityaxd29@cluster0.agz17i3.mongodb.net/?retryWrites=true&w=majority")
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001954221487"))
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Hero430:Hero430@hero.djda2kd.mongodb.net/?retryWrites=true&w=majority")
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001828975495"))
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "DABANG MUSIC BOT")
 
-OWNER_ID = list(map(int, getenv("OWNER_ID", "5999224089").split()))
+OWNER_ID = list(map(int, getenv("OWNER_ID", "5832166784").split()))
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/onenonlybotz/MusicXd")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/L2LUCKY/HEROxMUSIC")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/WhoIsAaditya")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/DabangTheBrand")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/anikahindishayri")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/fantastic_friends_forever")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
  
