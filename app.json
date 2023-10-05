@@ -1,7 +1,7 @@
 {
-    "name": "ᴀᴀʀᴏʜɪ ダ ᴍᴜsɪᴄ",
+    "name": "𝐇𝐄𝐑𝐎 𝐱 𝐌𝐔𝐒𝐈𝐂",
     "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
-    "logo": "https://te.legra.ph/file/e4558f53c2f885ec7f209.jpg",
+    "logo": "https://graph.org/file/8e904425b527cb3045de2.jpg",
     "keywords": [
     "python3",
     "telegram",
@@ -34,7 +34,7 @@
       },
       "MUSIC_BOT_NAME": {
         "description": "A name for your Music Bot. You can use special characters bot ko jhaat farak ni padega",
-        "value": "ᴀɴᴏɴ ダ ᴍᴜsɪᴄ",
+        "value": "𝐇𝐄𝐑𝐎 𝐱 𝐌𝐔𝐒𝐈𝐂",
         "required": true
       },
       "OWNER_ID": {
