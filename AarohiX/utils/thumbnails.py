@@ -11,7 +11,6 @@ from youtubesearchpython.__future__ import VideosSearch
 import numpy as np
 
 from config import YOUTUBE_IMG_URL
-from AarohiX import app
 
 
 def changeImageSize(maxWidth, maxHeight, image):
