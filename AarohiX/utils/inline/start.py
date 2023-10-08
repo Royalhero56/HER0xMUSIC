@@ -25,14 +25,14 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(
-                text="💖ᴏᴡɴᴇʀ💖", url=f"https://t.me/iamcutehero"),
+                text="💖ᴏᴡɴᴇʀ💖", user_id=OWNER), 
             InlineKeyboardButton(
                 text="🧸ʙʀᴏᴛʜᴇʀ🧸", url=f"https://t.me/Royal_king365"
             ),
         ],
         [
             InlineKeyboardButton(
-                text="💝ᴍᴀɪɴᴛᴀɪɴᴇʀ💝", user_id=OWNER),
+                text="💝ᴍᴀɪɴᴛᴀɪɴᴇʀ💝", url=f"https://t.me/iamcutehero"),
             InlineKeyboardButton(
                 text="🥰sᴜᴩᴩᴏʀᴛ🥰", url=config.SUPPORT_GROUP
             ),
@@ -56,13 +56,13 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(
-                text="💖ᴏᴡɴᴇʀ💖", url=f"https://t.me/iamcutehero"),
+                text="💖ᴏᴡɴᴇʀ💖", user_id=OWNER),
             InlineKeyboardButton(
                 text="🧸ʙʀᴏᴛʜᴇʀ🧸", url=f"https://t.me/Royal_king365"
             ),
         ],
         [
-            InlineKeyboardButton(text="💝ᴍᴀɪɴᴛᴀɪɴᴇʀ💝", user_id=OWNER),
+            InlineKeyboardButton(text="💝ᴍᴀɪɴᴛᴀɪɴᴇʀ💝", url=f"https://t.me/iamcutehero"),
             InlineKeyboardButton(
                 text="🥰sᴜᴩᴩᴏʀᴛ🥰", url=config.SUPPORT_GROUP
             ),
