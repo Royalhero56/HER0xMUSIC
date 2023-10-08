@@ -50,14 +50,6 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
             ),
         ],
         [
-           InlineKeyboardButton(
-                text="🥰ᴏᴡɴᴇʀ🥰", url=f"https://t.me/iamcutehero",
-            ),
-           InlineKeyboardButton(
-                text="🧸ʙʀᴏᴛʜᴇʀ🧸", url=f"https://t.me/Royal_king365",
-            ),
-        ],
-        [
             InlineKeyboardButton(
                 text="✯🥺 ᴄʟᴏsᴇ 🥺✯", callback_data="close"
             )
@@ -103,14 +95,6 @@ def telegram_markup_timer(_, chat_id, played, dur):
             ),
         ],
         [
-           InlineKeyboardButton(
-                text="🥰ᴏᴡɴᴇʀ🥰", url=f"https://t.me/iamcutehero",
-            ),
-           InlineKeyboardButton(
-                text="🧸ʙʀᴏᴛʜᴇʀ🧸", url=f"https://t.me/Royal_king365",
-            ),
-        ],
-        [
             InlineKeyboardButton(
                 text="🥀 sᴜᴩᴩᴏʀᴛ 🥀", url=config.SUPPORT_GROUP
             ),
@@ -149,14 +133,6 @@ def stream_markup(_, videoid, chat_id):
             ),
         ],
         [
-           InlineKeyboardButton(
-                text="🥰ᴏᴡɴᴇʀ🥰", url=f"https://t.me/iamcutehero",
-            ),
-           InlineKeyboardButton(
-                text="🧸ʙʀᴏᴛʜᴇʀ🧸", url=f"https://t.me/Royal_king365",
-            ),
-        ],
-        [
             InlineKeyboardButton(
                 text="✯🥺 ᴄʟᴏsᴇ 🥺✯", callback_data="close"
             )
@@ -180,14 +156,6 @@ def telegram_markup(_, chat_id):
             ),
             InlineKeyboardButton(
                 text="▢", callback_data=f"ADMIN Stop|{chat_id}"
-            ),
-        ],
-        [
-           InlineKeyboardButton(
-                text="🥰ᴏᴡɴᴇʀ🥰", url=f"https://t.me/iamcutehero",
-            ),
-           InlineKeyboardButton(
-                text="🧸ʙʀᴏᴛʜᴇʀ🧸", url=f"https://t.me/Royal_king365",
             ),
         ],
         [
@@ -338,14 +306,6 @@ def queue_markup(_, videoid, chat_id):
             InlineKeyboardButton(
                 text="🥀 sᴜᴩᴩᴏʀᴛ 🥀", url=config.SUPPORT_GROUP
             )
-        ],
-        [
-           InlineKeyboardButton(
-                text="🥰ᴏᴡɴᴇʀ🥰", url=f"https://t.me/iamcutehero",
-            ),
-           InlineKeyboardButton(
-                text="🧸ʙʀᴏᴛʜᴇʀ🧸", url=f"https://t.me/Royal_king365",
-            ),
         ],
         [
             InlineKeyboardButton(
