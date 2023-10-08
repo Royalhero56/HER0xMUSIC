@@ -32,7 +32,7 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(
-                text="💝ᴍᴀɪɴᴛᴀɪɴᴇʀ💝", url=f"https://t.me/iamcutehero"),
+                text="💝ᴍᴀɪɴᴛᴀɪɴᴇʀ💝", url=f"https://t.me/itz_Lucky_Raja"),
             InlineKeyboardButton(
                 text="🥰sᴜᴩᴩᴏʀᴛ🥰", url=config.SUPPORT_GROUP
             ),
@@ -62,7 +62,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
             ),
         ],
         [
-            InlineKeyboardButton(text="💝ᴍᴀɪɴᴛᴀɪɴᴇʀ💝", url=f"https://t.me/iamcutehero"),
+            InlineKeyboardButton(text="💝ᴍᴀɪɴᴛᴀɪɴᴇʀ💝", url=f"https://t.me/itz_Lucky_Raja"),
             InlineKeyboardButton(
                 text="🥰sᴜᴩᴩᴏʀᴛ🥰", url=config.SUPPORT_GROUP
             ),
