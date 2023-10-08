@@ -45,9 +45,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="✯ ᴍᴇɴᴜ ✯", 
-                 callback_data=f"PanelMarkup {videoid}|{chat_id}", 
-            ), 
+                text="💖ᴏᴡɴᴇʀ💖", user_id=OWNER),  
             InlineKeyboardButton(
                 text="🥀sᴜᴩᴩᴏʀᴛ🥀", url=config.SUPPORT_GROUP
             ),
@@ -134,9 +132,7 @@ def stream_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="✯ ᴍᴇɴᴜ ✯", 
-                 callback_data=f"PanelMarkup {videoid}|{chat_id}", 
-            ),
+                text="💖ᴏᴡɴᴇʀ💖", user_id=OWNER), 
             InlineKeyboardButton(
                 text="🥀sᴜᴩᴩᴏʀᴛ🥀", url=config.SUPPORT_GROUP
             ),
@@ -172,9 +168,7 @@ def telegram_markup(_, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="✯ ᴍᴇɴᴜ ✯", 
-                 callback_data=f"PanelMarkup {videoid}|{chat_id}", 
-            ),
+                text="💖ᴏᴡɴᴇʀ💖", user_id=OWNER), 
             InlineKeyboardButton(
                 text="🥺ᴄʟᴏsᴇ🥺", callback_data="close"
             )
@@ -316,9 +310,7 @@ def queue_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="✯ ᴍᴇɴᴜ ✯", 
-                 callback_data=f"PanelMarkup {videoid}|{chat_id}", 
-            ),
+                text="💖ᴏᴡɴᴇʀ💖", user_id=OWNER), 
             InlineKeyboardButton(
                 text="🥀sᴜᴩᴩᴏʀᴛ🥀", url=config.SUPPORT_GROUP
             )
