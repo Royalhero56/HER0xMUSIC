@@ -12,7 +12,7 @@ API_HASH = getenv("API_HASH", "b17f0957f25048200fd00998fd1595e8")
 
 BOT_TOKEN = getenv("BOT_TOKEN", "")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Hero430:Hero430@hero.djda2kd.mongodb.net/?retryWrites=true&w=majority")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Hero430:Hero@hero.djda2kd.mongodb.net/?retryWrites=true&w=majority")
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001828975495"))
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "[ 𝐇𝐄𝐑𝐎 𝐱 𝐌𝐔𝐒𝐈𝐂 ]")
 
@@ -21,7 +21,7 @@ OWNER_ID = list(map(int, getenv("OWNER_ID", "5832166784").split()))
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/L2LUCKY/HEROxMUSIC")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/royalhero16/HER0xMUSIC")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
