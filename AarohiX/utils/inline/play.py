@@ -12,7 +12,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
     pos = int(y)
 
     line = "╌"
-    circle = "💖"
+    circle = "❣️"
 
     bar = line*(pos-1)
     bar += circle
@@ -51,15 +51,15 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
            InlineKeyboardButton(
-                text="🥰ᴏᴡɴᴇʀ🥰", url=f"https://t.me/iamcutehero",
+                text="💕ᴏᴡɴᴇʀ💕", url=f"https://t.me/iamcutehero",
             ),
            InlineKeyboardButton(
-                text="🧸ʙʀᴏᴛʜᴇʀ🧸", url=f"https://t.me/Royal_king365",
+                text="💓ʙʀᴏᴛʜᴇʀ💓", url=f"https://t.me/@Ayuuubby",
             ),
         ],
         [
             InlineKeyboardButton(
-                text="✯🥺 ᴄʟᴏsᴇ 🥺✯", callback_data="close"
+                text="✯🤪 ᴄʟᴏsᴇ 🤪✯", callback_data="close"
             )
         ],
     ]
@@ -104,10 +104,10 @@ def telegram_markup_timer(_, chat_id, played, dur):
         ],
         [
            InlineKeyboardButton(
-                text="🥰ᴏᴡɴᴇʀ🥰", url=f"https://t.me/iamcutehero",
+                text="💕ᴏᴡɴᴇʀ💕", url=f"https://t.me/iamcutehero",
             ),
            InlineKeyboardButton(
-                text="🧸ʙʀᴏᴛʜᴇʀ🧸", url=f"https://t.me/Royal_king365",
+                text="💓ʙʀᴏᴛʜᴇʀ💓", url=f"https://t.me/@Ayuuubby",
             ),
         ],
         [
@@ -115,7 +115,7 @@ def telegram_markup_timer(_, chat_id, played, dur):
                 text="🥀 sᴜᴩᴩᴏʀᴛ 🥀", url=config.SUPPORT_GROUP
             ),
             InlineKeyboardButton(
-                text="✯🥺 ᴄʟᴏsᴇ 🥺✯", callback_data="close"
+                text="✯🤪 ᴄʟᴏsᴇ 🤪✯", callback_data="close"
             )
         ],
     ]
@@ -150,15 +150,15 @@ def stream_markup(_, videoid, chat_id):
         ],
         [
            InlineKeyboardButton(
-                text="🥰ᴏᴡɴᴇʀ🥰", url=f"https://t.me/iamcutehero",
+                text="💞ᴏᴡɴᴇʀ💞", url=f"https://t.me/iamcutehero",
             ),
            InlineKeyboardButton(
-                text="🧸ʙʀᴏᴛʜᴇʀ🧸", url=f"https://t.me/Royal_king365",
+                text="💓ʙʀᴏᴛʜᴇʀ💓", url=f"https://t.me/@Ayuuubby",
             ),
         ],
         [
             InlineKeyboardButton(
-                text="✯🥺 ᴄʟᴏsᴇ 🥺✯", callback_data="close"
+                text="✯🤪 ᴄʟᴏsᴇ 🤪✯", callback_data="close"
             )
         ],
     ]
@@ -184,10 +184,10 @@ def telegram_markup(_, chat_id):
         ],
         [
            InlineKeyboardButton(
-                text="🥰ᴏᴡɴᴇʀ🥰", url=f"https://t.me/iamcutehero",
+                text="💕ᴏᴡɴᴇʀ💕", url=f"https://t.me/iamcutehero",
             ),
            InlineKeyboardButton(
-                text="🧸ʙʀᴏᴛʜᴇʀ🧸", url=f"https://t.me/Royal_king365",
+                text="💓ʙʀᴏᴛʜᴇʀ💓", url=f"https://t.me/@Ayuuubby",
             ),
         ],
         [
@@ -195,7 +195,7 @@ def telegram_markup(_, chat_id):
                 text="🥀 sᴜᴩᴩᴏʀᴛ 🥀", url=config.SUPPORT_GROUP
             ),
             InlineKeyboardButton(
-                text="✯🥺 ᴄʟᴏsᴇ 🥺✯", callback_data="close"
+                text="✯🤪 ᴄʟᴏsᴇ 🤪✯", callback_data="close"
             )
         ],
     ]
@@ -341,15 +341,15 @@ def queue_markup(_, videoid, chat_id):
         ],
         [
            InlineKeyboardButton(
-                text="🥰ᴏᴡɴᴇʀ🥰", url=f"https://t.me/iamcutehero",
+                text="💕ᴏᴡɴᴇʀ💕", url=f"https://t.me/iamcutehero",
             ),
            InlineKeyboardButton(
-                text="🧸ʙʀᴏᴛʜᴇʀ🧸", url=f"https://t.me/Royal_king365",
+                text="💓ʙʀᴏᴛʜᴇʀ💓", url=f"https://t.me/@Ayuuubby",
             ),
         ],
         [
             InlineKeyboardButton(
-                text="✯🥺 ᴄʟᴏsᴇ 🥺✯", callback_data="close"
+                text="✯🤪 ᴄʟᴏsᴇ 🤪✯", callback_data="close"
             )
         ],
     ]
